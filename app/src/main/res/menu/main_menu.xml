@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+
+    android:id="@+id/item1"
+    android:icon="@drawable/baseline_cruelty_free_24"
+    app:showAsAction="always"
+    android:title="item 1"
+    />
+    <item
+        android:id="@+id/item2"
+        android:title="item 2"
+        />
+    <item
+        android:id="@+id/item3"
+        android:title="item 3"
+        >
+        <menu>
+            <item android:id="@+id/subItem1"
+                android:title="SubItem 1"
+                />
+            <item android:id="@+id/subItem2"
+                android:title="SubItem 2"
+                />
+        </menu>
+    </item>
+</menu>
